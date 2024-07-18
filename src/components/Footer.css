@@ -1,0 +1,52 @@
+.footer {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.footerContainer {
+  padding: 1rem 0;
+  background-color: #000000;
+}
+
+.footerContainer p {
+  font-size: 1rem;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Helvetica";
+ }
+
+.footerContainer a {
+  color: #94d6ff;
+}
+
+.footerContainer div .icons {
+  margin: 4px;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  height: 300px;
+  width: 300px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 728px) {
+  .footer-logo img {
+    height: 100px;
+    width: 100px;
+  }
+}

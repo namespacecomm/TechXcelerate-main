@@ -1,0 +1,264 @@
+/* Container styling */
+.speakers-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 100%;
+}
+
+/* Speaker card styling */
+.speaker-card {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 800px;
+  max-width: 100%;
+}
+
+/* Background colors for odd and even cards */
+.speaker-card:nth-child(odd) {
+  background: linear-gradient(98.84deg, #7b42f6 43.27%, #b642f6 71.84%);
+}
+
+.speaker-card:nth-child(even) {
+  background: linear-gradient(98.84deg, #42a5f5 43.27%, #42f4c5 71.84%);
+}
+
+/* Text styling */
+.speaker-card h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.speaker-card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding: 5px;
+  color: #ffffff;
+}
+
+/* Flex properties for details and image */
+.speaker-details {
+  flex: 3;
+}
+
+.speaker-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  margin-right: 20px;
+  flex: 1;
+}
+
+.speaker-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Social links styling */
+.social-links {
+  margin-top: 16px; /* Add space between image and social links */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.social-links a {
+  margin: 0 8px; /* Adjust spacing between social icons */
+  color: #007bff; /* Adjust color as needed */
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .speaker-card {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .speaker-image {
+      margin-right: 0;
+      margin-bottom: 20px; /* Add space below the image for smaller screens */
+  }
+
+  .speaker-image img {
+      width: 80%; /* Adjust image width for smaller screens */
+  }
+
+  .speaker-details {
+      text-align: center; /* Center align text for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .speaker-card {
+      width: 90vw; /* Adjust card width for tablets */
+  }
+
+  .speaker-card p {
+      font-size: 0.8rem; /* Adjust font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .speaker-card {
+      width: 100%; /* Adjust card width for mobile */
+      padding: 10px;
+  }
+
+  .speaker-card p {
+      font-size: 0.75rem; /* Adjust font size for mobile */
+  }
+}
+
+.blue-cyan {
+    background: linear-gradient(98.84deg, #8680bb 43.27%, #84b4b5 71.84%);
+  }
+  
+  .blue-cyan-text {
+    background: linear-gradient(98.84deg, #8680bb 43.27%, #84b4b5 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .purple-pink {
+    background: linear-gradient(98.84deg, #a8519f 43.27%, #644ea0 71.84%);
+  }
+  
+  .purple-pink-text {
+    background: linear-gradient(98.84deg, #a8519f 43.27%, #644ea0 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .green-yellow {
+    background: linear-gradient(98.84deg, #80ffea 43.27%, #8aff81 71.84%);
+  }
+  
+  .green-yellow-text {
+    background: linear-gradient(98.84deg, #80ffea 43.27%, #8aff81 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .orange-pink {
+    background: linear-gradient(98.84deg, #ffff80 43.27%, #ff82bf 71.84%);
+  }
+  
+  .orange-pink-text {
+    background: linear-gradient(98.84deg, #ffff80 43.27%, #ff82bf 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .red-orange {
+    background: linear-gradient(98.84deg, #ff6f61 43.27%, #ff8c42 71.84%);
+  }
+  
+  .red-orange-text {
+    background: linear-gradient(98.84deg, #ff6f61 43.27%, #ff8c42 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .blue-purple {
+    background: linear-gradient(98.84deg, #7b42f6 43.27%, #b642f6 71.84%);
+  }
+  
+  .blue-purple-text {
+    background: linear-gradient(98.84deg, #7b42f6 43.27%, #b642f6 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .yellow-green {
+    background: linear-gradient(98.84deg, #f9f871 43.27%, #a8eb12 71.84%);
+  }
+  
+  .yellow-green-text {
+    background: linear-gradient(98.84deg, #f9f871 43.27%, #a8eb12 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .pink-red {
+    background: linear-gradient(98.84deg, #ff9ff3 43.27%, #ff6b6b 71.84%);
+  }
+  
+  .pink-red-text {
+    background: linear-gradient(98.84deg, #ff9ff3 43.27%, #ff6b6b 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .green-blue {
+    background: linear-gradient(98.84deg, #00c6ff 43.27%, #0072ff 71.84%);
+  }
+  
+  .green-blue-text {
+    background: linear-gradient(98.84deg, #00c6ff 43.27%, #0072ff 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .purple-red {
+    background: linear-gradient(98.84deg, #9d50bb 43.27%, #6e48aa 71.84%);
+  }
+  
+  .purple-red-text {
+    background: linear-gradient(98.84deg, #9d50bb 43.27%, #6e48aa 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .teal-lime {
+    background: linear-gradient(98.84deg, #64e8e5 43.27%, #b6f493 71.84%);
+  }
+  
+  .teal-lime-text {
+    background: linear-gradient(98.84deg, #64e8e5 43.27%, #b6f493 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .orange-yellow {
+    background: linear-gradient(98.84deg, #ffb347 43.27%, #ffcc33 71.84%);
+  }
+  
+  .orange-yellow-text {
+    background: linear-gradient(98.84deg, #ffb347 43.27%, #ffcc33 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .magenta-violet {
+    background: linear-gradient(98.84deg, #ff00ff 43.27%, #8a2be2 71.84%);
+  }
+  
+  .magenta-violet-text {
+    background: linear-gradient(98.84deg, #ff00ff 43.27%, #8a2be2 71.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }

@@ -1,0 +1,222 @@
+/* .banner {
+  background-image: linear-gradient(
+    to bottom,
+    #aa367c,
+    #aa458f,
+    #a953a1,
+    #a560b3,
+    #a06ec3,
+    #8f6bb8,
+    #7f67ac,
+    #7062a0,
+    #564d79,
+    #3d3955,
+    #272532,
+    #121212
+  );
+} */
+
+/* .banner {
+  -webkit-box-shadow: 4px 37px 58px 9px rgba(64, 29, 93, 1);
+  -moz-box-shadow: 4px 37px 58px 9px rgba(64, 29, 93, 1);
+  box-shadow: 4px 37px 58px 9px rgba(64, 29, 93, 1); 
+
+} */
+
+.bannerWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcometoText {
+  font-size: 4rem;
+  font-family: "Helvetica";
+}
+
+@media only screen and (max-width: 400px) {
+  .welcometoText {
+    font-size: 8vw;
+  }
+}
+
+#title-animation {
+  font-family: "Helvetica Bold";
+  /* position: absolute; */
+  /* width: 70%; */
+  /* height: 70%; */
+  animation: back 5s;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  /* background-color: white; */
+}
+.banner-title {
+  font-family: "Helvetica Bold";
+  font-style: normal;
+  /* font-size: 170px; */
+
+  background: linear-gradient(360deg, #aa367c 73.08%, #967fd6 27.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#title-animation text {
+  /* text-transform: uppercase; */
+  animation: stroke 5s;
+  stroke-width: 2;
+  /* animation-delay: 250ms; */
+  /* stroke: #3b4d6a; */
+  /* font-size: 140px; */
+  font-size: 10rem;
+  font-weight: 900;
+  font-family: "Helvetica Bold";
+  fill: black;
+}
+
+@media only screen and (max-width: 400px) {
+  #title-animation text {
+    font-size: 8rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #title-animation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: white;
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+
+  70% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: white;
+  }
+
+  80% {
+    fill: rgba(72, 138, 20, 0);
+    stroke: white;
+    stroke-width: 3;
+  }
+
+  100% {
+    fill: white;
+    stroke: white;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.orgText {
+  font-family: "Helvetica";
+
+  font-size: 1rem;
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 400px) {
+  .orgText {
+    margin-top: 10px;
+    font-size: 2.5vw;
+  }
+}
+
+.orgText span {
+  font-weight: 700;
+}
+
+.middleTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  .middleTitle {
+    width: 95%;
+  }
+}
+
+.slogan {
+  font-size: 2.5rem;
+  font-family: Centra;
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  .slogan {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  video {
+    /* height: 700px; */
+    max-width: inherit;
+  }
+}
+
+@keyframes back {
+  0% {
+    background-color: #121212;
+  }
+
+  70% {
+    background-color: #121212;
+  }
+
+  80% {
+    background-color: #121212;
+  }
+
+  100% {
+    background-color: #121212;
+  }
+}
+
+.countDownContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.socialMedia {
+  display: none;
+  top: 25rem;
+  font-size: 2.5rem;
+  left: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.socialMain {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .socialMedia {
+    display: block;
+  }
+  .socialMain {
+    display: block;
+  }
+}

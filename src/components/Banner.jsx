@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Background from "../components/Background";
+import Background from "./Background";
 import "animate.css";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";

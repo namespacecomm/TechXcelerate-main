@@ -60,7 +60,7 @@ const Tracks = () => {
         </div>
       </section>
 
-      <div className="cards-grid grid grid-cols-1 gap-4 place-items-center md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-12 xl:grid xl:grid-cols-3 xl:gap-64">
+      <div className="cards-grid grid grid-cols-1 gap-4 place-items-center md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-12 xl:grid xl:grid-cols-3 xl:gap-64">
         <ThemesCard
           title={"DSA & CP"}
           image={trackCardGraphic}

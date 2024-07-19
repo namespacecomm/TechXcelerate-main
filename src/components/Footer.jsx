@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div style={{textAlign: "center", paddingTop: "1rem", fontSize: "0.8rem", color: "grey"}}>
-            "TechXcelerate", "nameSpace" and "The nameSpace Community" are the registered trade marks of The nameSpace Community Organization and its affiliates. All rights reserved.
+            "TechXcelerate", "nameSpace" and "The nameSpace Community" are the registered trademarks of The nameSpace Community Organization and its affiliates. All rights reserved.
           </div>
         </div>
       </div>

@@ -100,8 +100,11 @@
   }
 
   .speaker-details {
-      text-align: center; /* Center align text for smaller screens */
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+}
 }
 
 @media (max-width: 768px) {

@@ -151,33 +151,6 @@
   gap: 20px;
 }
 
-.theme-card {
-  height: 300px;
-  width: 200px;
-  border-radius: 13px;
-}
-
-.theme-card h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  transform: rotate(90deg) translate(90px, 80px);
-  color: #1b1c2e;
-}
-
-.theme-card p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
-  padding: 5px;
-  transform: translate(5px, -250px);
-  color: #1b1c2e;
-}
-.theme-card img {
-  height: 200px;
-  transform: translate(49px, 40px);
-  clip-path: inset(0px 50px 0px 0px);
-}
-
 @media only screen and (max-width: 768px) {
   .clg-desc {
     margin-bottom: 20px;
@@ -197,9 +170,7 @@
 }
 
 .CommunityImage {
-  /* max-width: 384px; */
   border-radius: 0.5rem;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   transition: transform 0.3s;
   cursor: pointer;

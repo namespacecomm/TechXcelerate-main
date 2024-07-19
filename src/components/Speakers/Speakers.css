@@ -21,11 +21,11 @@
 
 /* Background colors for odd and even cards */
 .speaker-card:nth-child(odd) {
-  background: linear-gradient(98.84deg, #7b42f6 43.27%, #b642f6 71.84%);
+  background: linear-gradient(135deg, #0f2027 30%, #2c5364 100%);
 }
 
 .speaker-card:nth-child(even) {
-  background: linear-gradient(98.84deg, #42a5f5 43.27%, #42f4c5 71.84%);
+  background: linear-gradient(135deg, #232526 30%, #414345 100%);
 }
 
 /* Text styling */
@@ -35,11 +35,16 @@
   color: #ffffff;
 }
 
+.speaker-card h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 150;
+  color: #ffffff;
+}
+
 .speaker-card p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 0.9rem;
-  padding: 5px;
   color: #ffffff;
 }
 

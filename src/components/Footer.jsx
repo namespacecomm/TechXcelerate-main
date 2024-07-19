@@ -45,7 +45,12 @@ const Footer = () => {
             </a>
           </p>
 
-          <div className="footer-text mt-4 mb-4">© {year} The nameSpace Community</div>
+          <div className="footer-text mt-4 mb-4">© {year} <a href="https://www.namespacecomm.in/" target="_blank">The nameSpace Community</a>
+          </div>
+
+          <div style={{textAlign: "center", paddingTop: "1rem", fontSize: "0.8rem", color: "grey"}}>
+            "TechXcelerate", "nameSpace" and "The nameSpace Community" are the registered trade marks of The nameSpace Community Organization and its affiliates. All rights reserved.
+          </div>
         </div>
       </div>
     </footer>

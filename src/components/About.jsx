@@ -24,7 +24,7 @@ const About = (props) => {
               What is TechXcelerate 3.0?
             </h1>
             <p className="techx-overview-text text-justify">
-              TechX ka generic description
+            TechXcelerate, launched in April 2023, is a series of interactive sessions designed to empower first and second-year students with essential technical skills. These beginner-friendly sessions cover a wide range of topics, including Competitive Programming, web development, app development, data science, and more. Delivered by industry-leading professionals, TechXcelerate aims to provide students with the tips and tricks necessary to excel in various technical domains.
             </p>
             <div className="counters-grid">
               <div>
@@ -107,7 +107,7 @@ const About = (props) => {
               The nameSpace Community ❤️
             </h1>
             <p className="techx-overview-text text-justify">
-              nameSpace ka generic description
+            The nameSpace Community is an organization of like-minded individuals who share a passion for technology and are committed to helping each other become the best developers they can be. Whether you're just starting out in your coding journey or a seasoned pro, our community is a place where you can connect with other tech enthusiasts, share your knowledge, and grow your skills. Founded in 2022, nameSpace has quickly grown to become one of the largest technical communities in Delhi-NCR and is racing towards further expansion and deeper penetration in its core segments.
             </p>
             <div className="counters-grid">
               <div>

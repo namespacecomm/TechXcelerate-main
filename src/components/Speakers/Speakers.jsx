@@ -3,6 +3,7 @@ import "./Speakers.css";
 import { LinkedIn, YouTube } from "@mui/icons-material";
 import XIcon from "@mui/icons-material/X";
 import speakers from "./speakersData.js";
+import { Typewriter } from "react-simple-typewriter";
 
 const Speakers = () => {
   return (
@@ -11,7 +12,7 @@ const Speakers = () => {
         <h1
           className="pink-red-text pb-4 pt-6 text-center text-[45px] sm:text-[25px] md:text-[35px] lg:text-[45px] capitalize cursor-pointer"
           style={{
-            fontFamily: "Poppins,sans-serif",
+            fontFamily: "Poppins, sans-serif",
             fontWeight: 700,
             textAlign: "center",
           }}
@@ -19,7 +20,22 @@ const Speakers = () => {
           Featured Speakers
         </h1>
         <div className="speakers-list">
-          {speakers.map((speaker) => (
+          <h1
+            className="text-center text-white"
+            style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 , fontSize:'2rem',marginTop:'3rem',marginLeft:'1.4rem'}}
+          >
+            <Typewriter
+              words={["To Be Announced Soon...", "Stay Tuned!"]} 
+              loop={0} 
+              cursor
+              cursorStyle="_"
+              typeSpeed={100} 
+              deleteSpeed={50} 
+              delaySpeed={2000} 
+            />
+          </h1>
+          {/* Uncomment and use the speakers data as needed */}
+          {/* {speakers.map((speaker) => (
             <div key={speaker.id} className="speaker-card">
               <div className="speaker-image">
                 <img src={speaker.photo} alt={speaker.fullName} />
@@ -67,7 +83,7 @@ const Speakers = () => {
                 </p>
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

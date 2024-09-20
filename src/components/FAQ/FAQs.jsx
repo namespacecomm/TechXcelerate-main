@@ -10,53 +10,49 @@ const FAQs = () => {
 
   const faqData = [
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "What is TechXcelerate?",
+      text: "TechXcelerate is a series of sessions across different tech domains, designed for freshers, led by expert speakers. After the sessions conclude, participants will be given assignments (projects) to choose from, which they must complete and submit within the given deadline.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "Who can participate in TechXcelerate?  ",
+      text: "TechXcelerate is open to anyone interested in technology, including students, professionals, and tech enthusiasts. It is especially designed for first and second-year students to help them explore different tech domains, understand various roadmaps, and make informed decisions about which area to focus on.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "Is it free?*",
+      text: "Yes, attendance for TechXcelerate is free of charge.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "When will it happen?",
+      text: "The TechXcelerate sessions will take place from 14th October 2024 to 23rd October 2024.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "What will be covered in the sessions?",
+      text: "The TechXcelerate sessions will cover domain guidance and roadmaps, with insights provided by expert speakers from the industry. These sessions will help participants gain a deeper understanding of different tech domains and the paths they can follow to succeed in their chosen field.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "Who will be the speakers?",
+      text: "The speakers will include industry experts, thought leaders, and experienced professionals from various tech fields.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "How many domains will be covered?",
+      text: "TechXcelerate will cover 10 domains: web development, app development, AI/ML, data science, DSA/competitive programming, cybersecurity, AR/VR, cloud/devops, open source, and blockchain.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "Will we get a certificate for attending?",
+      text: "Yes, participants will receive a certificate of attendance after completing the sessions.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "What kind of assignments will be given?",
+      text: "On 24th October 2024, assignment projects will be launched, and participants will have the opportunity to choose one. These assignments will be mini, complete, and beginner-friendly projects with a detailed roadmap. All necessary resources and steps will be provided, making it easy for participants, even beginners, to follow along and build a fully functional project. Completing these projects will add value to their resumes by showcasing hands-on experience.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
+      title: "Will participants receive a certificate for completing the assignment?",
+      text: "Yes, participants will receive a certificate upon successfully completing the assignment.",
     },
     {
-      title: "Generic Question",
-      text: "Generic Answer",
-    },
-    {
-      title: "Generic Question",
-      text: "Generic Answer",
-    },
+      title: "Deadline for assignment?",
+      text: "The deadline for TechXcelerate assignment submissions is 20th November 2024.",
+    }
   ];
 
   return (

@@ -6,7 +6,7 @@ const Background = (props) => {
   const isMobile = window.innerWidth < 450;
 
   const handleRegisterButtonClick = () => {
-    window.open("", "_blank");
+    window.open("https://techx24.devfolio.co", "_blank");
   };
 
   return (

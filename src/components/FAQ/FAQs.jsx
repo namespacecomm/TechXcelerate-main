@@ -18,7 +18,7 @@ const FAQs = () => {
       text: "TechXcelerate is open to anyone interested in technology, including students, professionals, and tech enthusiasts. It is especially designed for first and second-year students to help them explore different tech domains, understand various roadmaps, and make informed decisions about which area to focus on.",
     },
     {
-      title: "Is it free?*",
+      title: "Is it free?",
       text: "Yes, attendance for TechXcelerate is free of charge.",
     },
     {

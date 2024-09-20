@@ -43,14 +43,16 @@ export const Schedule = () => {
               justifyContent: "center",
             }}
           >
-            <div className={`${classes.keyDatesCards} my-5`}>
+            <div className={`${classes.keyDatesCards} my-5`} >
               <div className="row">
                 <div
                   className="col-5 blue-cyan-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>1st to 30th</h1>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>21st To</h1>
                   <h3 style={{ fontSize: "25px" }}>September</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px" ,marginTop:"1rem"}}>23rd </h1>
+                  <h3 style={{ fontSize: "25px" }}>October</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Registration Period</h1>
@@ -73,8 +75,8 @@ export const Schedule = () => {
                   className="col-5 purple-pink-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>20th to 28th</h1>
-                  <h3 style={{ fontSize: "25px" }}>September</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>14th To 23rd</h1>
+                  <h3 style={{ fontSize: "25px" }}>October</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Online Sessions</h1>
@@ -99,8 +101,10 @@ export const Schedule = () => {
                   className="col-5 green-yellow-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>1st to 31st</h1>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>24th  To</h1>
                   <h3 style={{ fontSize: "25px" }}>October</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px", marginTop:"1rem"}}>20th </h1>
+                  <h3 style={{ fontSize: "25px" }}>November</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Coding Period</h1>
@@ -125,8 +129,8 @@ export const Schedule = () => {
                   className="col-5 orange-pink-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>21st to 31st</h1>
-                  <h3 style={{ fontSize: "25px" }}>October</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>10th To 20th</h1>
+                  <h3 style={{ fontSize: "25px" }}>November</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Submission Period</h1>

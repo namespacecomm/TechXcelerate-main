@@ -49,10 +49,11 @@ export const Schedule = () => {
                   className="col-5 blue-cyan-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>21st To</h1>
-                  <h3 style={{ fontSize: "25px" }}>September</h3>
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" ,marginTop:"1rem"}}>23rd </h1>
-                  <h3 style={{ fontSize: "25px" }}>October</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>21st</h1>
+                  <h3 style={{ fontSize: "20px" }}>September</h3>
+                  <h3 style={{ fontSize: "25px", marginTop:"1rem" }}>To</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" , marginTop:"1rem"}}>23rd</h1>
+                  <h3 style={{ fontSize: "20px" }}>October</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Registration Period</h1>
@@ -75,8 +76,11 @@ export const Schedule = () => {
                   className="col-5 purple-pink-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>14th To 23rd</h1>
-                  <h3 style={{ fontSize: "25px" }}>October</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>14th</h1>
+                  <h3 style={{ fontSize: "20px" }}>October</h3>
+                  <h3 style={{ fontSize: "25px", marginTop:"1rem" }}>To</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" , marginTop:"1rem"}}>23rd</h1>
+                  <h3 style={{ fontSize: "20px" }}>October</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Online Sessions</h1>
@@ -101,10 +105,11 @@ export const Schedule = () => {
                   className="col-5 green-yellow-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>24th  To</h1>
-                  <h3 style={{ fontSize: "25px" }}>October</h3>
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px", marginTop:"1rem"}}>20th </h1>
-                  <h3 style={{ fontSize: "25px" }}>November</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>24th</h1>
+                  <h3 style={{ fontSize: "20px" }}>October</h3>
+                  <h3 style={{ fontSize: "25px", marginTop:"1rem" }}>To</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" , marginTop:"1rem"}}>20th</h1>
+                  <h3 style={{ fontSize: "20px" }}>November</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Coding Period</h1>
@@ -129,8 +134,11 @@ export const Schedule = () => {
                   className="col-5 orange-pink-text"
                   style={{ padding: "2rem" }}
                 >
-                  <h1 style={{ fontWeight: "bold", fontSize: "45px" }}>10th To 20th</h1>
-                  <h3 style={{ fontSize: "25px" }}>November</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" }}>10th</h1>
+                  <h3 style={{ fontSize: "20px" }}>November</h3>
+                  <h3 style={{ fontSize: "25px", marginTop:"1rem" }}>To</h3>
+                  <h1 style={{ fontWeight: "bold", fontSize: "40px" , marginTop:"1rem"}}>20th</h1>
+                  <h3 style={{ fontSize: "20px" }}>November</h3>
                 </div>
                 <div className="col-7" style={{ padding: "2rem" }}>
                   <h1 style={{ fontSize: "40px" }}>Submission Period</h1>

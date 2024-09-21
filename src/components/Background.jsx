@@ -64,10 +64,10 @@ const Background = (props) => {
         </button> */}
       </div>
       <div
-        className="apply-button absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center"
-        data-hackathon-slug="techx24"
-        data-button-theme="dark-inverted"
-        style={{ height: "44px", width: "312px" }}
+              class="apply-button"
+              data-hackathon-slug="techx24"
+              data-button-theme="dark-inverted"
+              style={{ height: "96px", width: "340px", margin: "20px auto 0", display: "block", textAlign: "center" }}
       ></div>
     </>
   );

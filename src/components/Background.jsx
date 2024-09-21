@@ -51,7 +51,7 @@ const Background = (props) => {
       </div>
       
       <div className="left-0 right-0 flex justify-center">
-        <button
+        {/* <button
           className="button-86 absolute top-[35rem] sm:top-[18rem] md:top-[24rem] lg:top-[30rem] xl:top-[36rem] 2xl:top-[45rem]"
           onClick={handleRegisterButtonClick}
           style={{
@@ -61,15 +61,15 @@ const Background = (props) => {
           }}
         >
           Register on Devfolio
-        </button>
+        </button> */}
         
       </div>
-      {/* <div
+      <div
           className="apply-button left-0 right-0 flex justify-center"
           data-hackathon-slug="techx24"
           data-button-theme="dark-inverted"
           style={{ height: "44px", width: "312px" }} 
-        ></div> */}
+        ></div>
     </>
   );
 };

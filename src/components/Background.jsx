@@ -67,7 +67,7 @@ const Background = (props) => {
               class="apply-button"
               data-hackathon-slug="techx24"
               data-button-theme="dark-inverted"
-              style={{ height: "96px", width: "340px", margin: "20px auto 0", display: "block", textAlign: "center" }}
+              //style={{ height: "96px", width: "340px", margin: "20px auto 0", display: "block", textAlign: "center" }}
       ></div>
     </>
   );

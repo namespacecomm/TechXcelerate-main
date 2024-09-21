@@ -2,6 +2,8 @@ import "./Tracks.css";
 import ThemesCard from "../ThemesCard/ThemesCard";
 import trackCardGraphic from "../../assets/img/themes/programing.png"
 import trackPageGraphic from "../../assets/img/themes/trackPageGraphic.png";
+import {Tilt} from 'react-tilt';
+
 
 const Tracks = () => {
   return (
@@ -60,8 +62,16 @@ const Tracks = () => {
         </div>
       </section>
 
-      <div className="cards-grid grid grid-cols-1 gap-4 place-items-center md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-12 xl:grid xl:grid-cols-3 xl:gap-64">
-        <ThemesCard
+      {/* <div className="cards-grid grid grid-cols-1 gap-4 place-items-center md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-12 xl:grid xl:grid-cols-3 xl:gap-64 mb-8 mt-2"> */}
+      <div className="mb-8 mt-2 ">
+      <Tilt options={{ max: 25 }}>
+          <h1 className="gradient-text animate-text-entry text-center" >
+            Tracks Launching Soon!
+          </h1>
+        </Tilt>
+
+
+        {/* <ThemesCard
           title={"DSA & CP"}
           image={trackCardGraphic}
           description={
@@ -191,10 +201,10 @@ const Tracks = () => {
           gradientColor={"orange-yellow"}
           gradientColorText={"orange-yellow-text"}
           assignmentLink={""}
-        />
+        /> */}
       </div>
 
-      <div className="left-0 right-0 flex justify-center mt-4">
+      {/* <div className="left-0 right-0 flex justify-center mt-4">
         <button
           className="button-76 absolute top-[35rem] sm:top-[18rem] md:top-[24rem] lg:top-[30rem] xl:top-[36rem] 2xl:top-[45rem] "
           style={{
@@ -205,7 +215,7 @@ const Tracks = () => {
         >
           View Rules
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

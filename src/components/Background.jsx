@@ -49,7 +49,7 @@ const Background = (props) => {
       <div className="absolute top-0 left-0 right-0 background-video">
         {props.children}
       </div>
-      
+
       <div className="left-0 right-0 flex justify-center">
         {/* <button
           className="button-86 absolute top-[35rem] sm:top-[18rem] md:top-[24rem] lg:top-[30rem] xl:top-[36rem] 2xl:top-[45rem]"
@@ -62,14 +62,13 @@ const Background = (props) => {
         >
           Register on Devfolio
         </button> */}
-        
       </div>
       <div
-          className="apply-button left-0 right-0 flex justify-center"
-          data-hackathon-slug="techx24"
-          data-button-theme="dark-inverted"
-          style={{ height: "44px", width: "312px" }} 
-        ></div>
+        className="apply-button absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center"
+        data-hackathon-slug="techx24"
+        data-button-theme="dark-inverted"
+        style={{ height: "44px", width: "312px" }}
+      ></div>
     </>
   );
 };

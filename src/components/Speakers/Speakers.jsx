@@ -24,18 +24,10 @@ const Speakers = () => {
             className="text-center text-white"
             style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 , fontSize:'2rem',marginTop:'3rem',marginLeft:'1.4rem'}}
           >
-            <Typewriter
-              words={["To Be Announced Soon...", "Stay Tuned!"]} 
-              loop={0} 
-              cursor
-              cursorStyle="_"
-              typeSpeed={100} 
-              deleteSpeed={50} 
-              delaySpeed={2000} 
-            />
+           
           </h1>
-          {/* Uncomment and use the speakers data as needed */}
-          {/* {speakers.map((speaker) => (
+          
+           {speakers.map((speaker) => (
             <div key={speaker.id} className="speaker-card">
               <div className="speaker-image">
                 <img src={speaker.photo} alt={speaker.fullName} />
@@ -83,7 +75,7 @@ const Speakers = () => {
                 </p>
               </div>
             </div>
-          ))} */}
+          ))}
         </div>
       </div>
     </section>

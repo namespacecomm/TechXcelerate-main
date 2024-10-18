@@ -65,7 +65,7 @@ const speakers = [
         photo: speakerImage5,
         workshopDateTime: '2024-10-18\n |  7 PM - 8 PM'
     },
-    {
+    /* {
         id: 6,
         fullName: 'Sumit Shukla',
         designation: 'Data Science',
@@ -75,7 +75,7 @@ const speakers = [
         youtube: null,
         photo: speakerImage6,
         workshopDateTime: '2024-10-19\n  | 7 PM - 8 PM'
-    },
+    }, */
     {
         id: 7,
         fullName: 'Priyanshu Mundra',

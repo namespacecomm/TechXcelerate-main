@@ -14,7 +14,6 @@ import FAQs from "./components/FAQ/FAQs";
 import Speakers from "./components/Speakers/Speakers";
 import Archive from "./components/Archive/Archive";
 import Badge from "./components/Badge/Badge";
-import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [windowSize, setWindowSize] = useState([

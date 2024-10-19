@@ -88,7 +88,7 @@
 }
 
 .download-button {
-    background-color: #4caf50;
+    background-color: #89429f;
     color: white;
     border: none;
     cursor: pointer;
@@ -100,16 +100,16 @@
 }
 
 .download-button:not(:disabled):hover {
-    background-color: #45a049;
+    background-color: #bc88cc;
     box-shadow: 0 4px 8px rgba(69, 160, 73, 0.2);
 }
 
 .download-button:active {
-    background-color: #3e8e41;
+    background-color: #482b5b;
     transform: translateY(2px);
 }
 
-.socialmedia-link {
+.socialmedia-link-badgepage {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -117,21 +117,21 @@
   padding: 0;
 }
 
-.socialmedia-link li {
+.socialmedia-link-badgepage li {
   transition: transform 0.3s ease;
 }
 
-.socialmedia-link li:hover {
+.socialmedia-link-badgepage li:hover {
   transform: scale(1.2);
 }
 
-.socialmedia-link svg {
+.socialmedia-link-badgepage svg {
   fill: #eee;
   width: 28px;
   height: 28px;
   transition: fill 0.3s ease;
 }
 
-.socialmedia-link li:hover svg {
-  fill: #f39c12; /* Change the color on hover */
+.socialmedia-link-badgepage li:hover svg {
+  fill: #b619d2; /* Change the color on hover */
 }

@@ -110,60 +110,93 @@ const About = (props) => {
             The nameSpace Community is an organization of like-minded individuals who share a passion for technology and are committed to helping each other become the best developers they can be. Whether you're just starting out in your coding journey or a seasoned pro, our community is a place where you can connect with other tech enthusiasts, share your knowledge, and grow your skills. Founded in 2022, nameSpace has quickly grown to become one of the largest technical communities in Delhi-NCR and is racing towards further expansion and deeper penetration in its core segments.
             </p>
             <div className="counters-grid">
-              <div>
+              <div className="counter-item">
                 <CountUp
                   start={0}
-                  end={4000}
-                  duration={2.75}
-                  suffix="+"
+                  end={4}
+                  duration={4}
+                  suffix=""
                   enableScrollSpy="true"
                   className="counters"
                 />
-                <p>Members</p>
+                <p className="counters">Flagship National Events</p>
               </div>
-              <div>
+              <div className="counter-item">
                 <CountUp
                   start={0}
                   end={100}
-                  duration={2.75}
+                  duration={4}
                   suffix="+"
                   enableScrollSpy="true"
                   className="counters"
                 />
-                <p>Events</p>
+                <p className="counters">Major and Minor Events</p>
               </div>
-              <div>
+              <div className="counter-item">
                 <CountUp
                   start={0}
-                  end={40}
-                  duration={2.75}
+                  end={250}
+                  duration={4}
                   suffix="+"
                   enableScrollSpy="true"
                   className="counters"
                 />
-                <p>Core Team</p>
+                <p className="counters">Institutions Reached</p>
               </div>
-              <div>
+              <div className="counter-item">
                 <CountUp
                   start={0}
-                  end={5}
-                  duration={2.75}
+                  end={50}
+                  duration={4}
                   suffix="+"
                   enableScrollSpy="true"
                   className="counters"
                 />
-                <p>Flagship Events</p>
+                <p className="counters">Community Partners</p>
               </div>
-              <div>
+              <div className="counter-item">
+                <CountUp
+                  start={0}
+                  end={100}
+                  duration={4}
+                  suffix="+"
+                  enableScrollSpy="true"
+                  className="counters"
+                />
+                <p className="counters">Ambassadors and Evangelists</p>
+              </div>
+              <div className="counter-item">
+                <CountUp
+                  start={0}
+                  end={25}
+                  duration={4}
+                  suffix="+"
+                  enableScrollSpy="true"
+                  className="counters"
+                />
+                <p className="counters">Indian States and UTs</p>
+              </div>
+              <div className="counter-item">
                 <CountUp
                   start={0}
                   end={10}
-                  duration={2.75}
+                  duration={4}
                   suffix="+"
                   enableScrollSpy="true"
                   className="counters"
                 />
-                <p>Programmes</p>
+                <p className="counters">Countries Reached</p>
+              </div>
+              <div className="counter-item">
+                <CountUp
+                  start={0}
+                  end={50}
+                  duration={4}
+                  suffix="+"
+                  enableScrollSpy="true"
+                  className="counters"
+                />
+                <p className="counters">Sponsors and Partners</p>
               </div>
             </div>
           </Col>

@@ -41,10 +41,14 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand className="nav-logo">
             <a href="/#home" alt="Logo">
-              <img src={logo} alt="Logo" id="logo" style={{ width: '150px', height: 'auto' }} />
+              <img
+                src={logo}
+                alt="Logo"
+                id="logo"
+                style={{ width: "150px", height: "auto" }}
+              />
             </a>
           </Navbar.Brand>
-
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -80,7 +84,6 @@ export const NavBar = () => {
                 About
               </Nav.Link>
 
-
               <Nav.Link
                 href={getLinkHref("tracks")}
                 className={
@@ -94,7 +97,9 @@ export const NavBar = () => {
               <Nav.Link
                 href={getLinkHref("speakers")}
                 className={
-                  activeLink === "speakers" ? "active navbar-link" : "navbar-link"
+                  activeLink === "speakers"
+                    ? "active navbar-link"
+                    : "navbar-link"
                 }
                 onClick={() => setActiveLink("speakers")}
               >
@@ -104,7 +109,9 @@ export const NavBar = () => {
               <Nav.Link
                 href={getLinkHref("archive")}
                 className={
-                  activeLink === "archive" ? "active navbar-link" : "navbar-link"
+                  activeLink === "archive"
+                    ? "active navbar-link"
+                    : "navbar-link"
                 }
                 onClick={() => setActiveLink("archive")}
               >
@@ -112,17 +119,25 @@ export const NavBar = () => {
               </Nav.Link>
 
               <Nav.Link
-                href={getLinkHref("faq")}
+                href={getLinkHref("badge")}
                 className={
-                  activeLink === "faq"
+                  activeLink === "badge"
                     ? "active navbar-link"
                     : "navbar-link"
+                }
+                onClick={() => setActiveLink("badge")}
+              >
+                Badge
+              </Nav.Link>
+              <Nav.Link
+                href={getLinkHref("faq")}
+                className={
+                  activeLink === "faq" ? "active navbar-link" : "navbar-link"
                 }
                 onClick={() => setActiveLink("faq")}
               >
                 FAQs
               </Nav.Link>
-
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -13,6 +13,7 @@ import ScrollToTop from "react-scroll-to-top";
 import FAQs from "./components/FAQ/FAQs";
 import Speakers from "./components/Speakers/Speakers";
 import Archive from "./components/Archive/Archive";
+import Badge from "./components/Badge/Badge";
 
 function App() {
   const [windowSize, setWindowSize] = useState([
@@ -68,6 +69,7 @@ function App() {
               <Tracks />
               <Speakers />
               <Archive />
+              <Badge />
               <FAQs />
               <Footer />
               {windowSize[0] < 600 && <MobileNavbar />}

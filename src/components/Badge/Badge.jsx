@@ -90,7 +90,7 @@ const Badge = () => {
           <p className="techx-overview-text text-justify">
             Our socials:
           </p>
-          <ul className="socialmedia-link">
+          <ul className="socialmedia-link-badgepage">
             <li>
               <a
                 rel="noreferrer"

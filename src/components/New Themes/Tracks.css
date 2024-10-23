@@ -205,3 +205,30 @@
 .animate-text-entry {
   animation: textEntry 1.5s ease-out;
 }
+
+.themes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.themes-container > div {
+  flex: 1 1 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .themes-container > div {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .themes-container > div {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

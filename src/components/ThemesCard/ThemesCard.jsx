@@ -4,7 +4,6 @@ import "./ThemesCard.css";
 function ThemesCard({
   image,
   title,
-  description,
   gradientColor,
   gradientColorText,
   assignmentLink
@@ -19,21 +18,13 @@ function ThemesCard({
           <img className="p-4 h-40 w-40" src={image} alt="sdg" />
         </div>
       </div>
-      <div className="px-4 py-2 flex flex-col flex-grow">
+      <div className="px-4 pb-2 flex flex-col">
         <h5
           className={`mb-2 text-[1.5rem] font-bold tracking-tight text-center ${gradientColorText}`}
         >
           {title}
         </h5>
-        <p className="text-justify font-normal flex-grow">{description}</p>
-        <div>
-          <hr className="text-[#767676] dark:text-[#767676]" />
-        </div>
-        <p className="text-justify font-normal flex-grow">
-          <a href={assignmentLink} target="_blank" rel="noopener noreferrer">
-            <strong>Get the assignment here</strong>
-          </a>
-        </p>
+        <hr className="text-[#767676] dark:text-[#767676]" />
       </div>
     </div>
   );

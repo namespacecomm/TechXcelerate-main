@@ -1,11 +1,15 @@
 .ProjectCard {
   width: 352px;
-  min-height: 435px;
+  min-height: 435px; /* If this is causing extra space, consider changing to height */
+  height: 435px; /* Set a specific height if appropriate */
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 0.3s;
   cursor: pointer;
   box-shadow: rgb(20, 96, 228) 0px 4px 10px;
+  display: flex; /* Ensure the card is a flex container */
+  flex-direction: column; /* Align items vertically */
+  justify-content: space-between; /* Distribute space between children */
 }
 
 .ProjectCard:hover {
@@ -20,7 +24,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .PortfolioCard {
+  .ProjectCard { /* Corrected class name from PortfolioCard to ProjectCard */
     max-width: 680px;
   }
 }

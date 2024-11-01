@@ -14,6 +14,7 @@ import FAQs from "./components/FAQ/FAQs";
 import Speakers from "./components/Speakers/Speakers";
 import Archive from "./components/Archive/Archive";
 import Badge from "./components/Badge/Badge";
+import PdfPreview from "./components/ThemesCard/reactPdf";
 
 function App() {
   const [windowSize, setWindowSize] = useState([
@@ -74,8 +75,10 @@ function App() {
               <Footer />
               {windowSize[0] < 600 && <MobileNavbar />}
             </Fragment>
+            
           }
         />
+        <Route path="/pdf-preview" element={<PdfPreview />} />
       </Routes>
     </BrowserRouter>
   );

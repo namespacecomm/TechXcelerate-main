@@ -17,6 +17,21 @@
   box-shadow: rgb(62, 186, 236) 0px 4px 10px;
 }
 
+.pdf-icon {
+  background-color: transparent; 
+  transition: background-color 0.3s ease;
+}
+
+.pdf-icon:hover {
+  background-color: #e0f4ff;
+}
+.pdf-number{
+  color:white;
+}
+.pdf-icon:hover .pdf-number {
+  color: black;
+}
+
 @media screen and (min-width: 640px) {
   .ProjectCard {
     max-width: 506px;

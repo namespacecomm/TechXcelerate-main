@@ -62,11 +62,11 @@ const Tracks = () => {
       </section>
 
       <div className="mb-8 mt-2 ">
-        <Tilt options={{ max: 25 }}>
+        {/* <Tilt options={{ max: 25 }}>
           <h1 className="gradient-text animate-text-entry text-center">
             Assignments Launching Soon!
           </h1>
-        </Tilt>
+        </Tilt> */}
 
         {/* Flex container for the ThemesCards */}
         <div className="themes-container">
@@ -76,6 +76,7 @@ const Tracks = () => {
             description={""}
             gradientColor={"purple-pink"}
             gradientColorText={"purple-pink-text"}
+            assignmentLink={['/assignments/webDev1.pdf','/assignments/webDev2.pdf']}
           />
 
           <ThemesCard
@@ -84,6 +85,7 @@ const Tracks = () => {
             description={""}
             gradientColor={"green-yellow"}
             gradientColorText={"green-yellow-text"}
+            assignmentLink={['/assignments/app1.pdf','/assignments/app2.pdf']}
           />
 
           <ThemesCard
@@ -92,6 +94,7 @@ const Tracks = () => {
             description={""}
             gradientColor={"orange-pink"}
             gradientColorText={"orange-pink-text"}
+            assignmentLink={['/assignments/ml.pdf']}
           />
 
           <ThemesCard
@@ -100,6 +103,7 @@ const Tracks = () => {
             description={""}
             gradientColor={"yellow-green"}
             gradientColorText={"yellow-green-text"}
+            assignmentLink={['/assignments/blockChain.pdf']}
           />
 
        <ThemesCard
@@ -108,6 +112,7 @@ const Tracks = () => {
           description={""}
           gradientColor={"blue-purple"}
           gradientColorText={"blue-purple-text"}
+          assignmentLink={['/assignments/docker.pdf']}
         />
 
 
@@ -117,6 +122,7 @@ const Tracks = () => {
             description={""}
             gradientColor={"pink-red"}
             gradientColorText={"pink-red-text"}
+            assignmentLink={['/assignments/Cybersecurity.pdf']}
           />
         </div>
       </div>
@@ -128,6 +134,9 @@ const Tracks = () => {
             fontFamily: "Poppins,sans-serif",
             fontWeight: 700,
             textAlign: "center",
+          }}
+          onClick={()=>{
+            window.open('https://lush-bugle-f9b.notion.site/TechXcelerate-3-0-The-Participants-Guide-10896f9c8792804b8e23fb0a57fa65f7', '_blank');
           }}
         >
           View Rules
